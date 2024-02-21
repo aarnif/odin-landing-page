@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  all: unset;
+  list-style: none;
+}
+
+#wrapper {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.hero--container {
+  max-width: 1200px;
+}
+
+.hero--menu {
+  max-width: 1200px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+
+.hero--menu-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.hero--menu-items {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero--menu-items > li {
+  padding-left: 40px;
+}
+
+.hero--main {
+  max-width: 1200px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.hero--main-content {
+  flex-basis: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.hero--main-content-header {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.hero--main-content-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero--image-container {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #71717a;
+}
+
+.hero--sign-up-button {
+  all: unset;
+  width: 130px;
+  height: 30px;
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.hero--sign-up-button:hover {
+  cursor: pointer;
+  background-color: #166bf3;
+}
