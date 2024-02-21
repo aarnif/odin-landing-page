@@ -1,11 +1,17 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  background-color: #1f2937;
 }
 
 ul {
   all: unset;
   list-style: none;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
 }
 
 #wrapper {
@@ -88,7 +94,6 @@ ul {
 }
 
 .hero--sign-up-button {
-  all: unset;
   width: 130px;
   height: 30px;
   background-color: #3882f6;
@@ -103,7 +108,6 @@ ul {
 }
 
 .hero--sign-up-button:hover {
-  cursor: pointer;
   background-color: #166bf3;
 }
 
@@ -181,4 +185,72 @@ ul {
   font-size: 24px;
   font-weight: bold;
   align-self: end;
+}
+
+#action {
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+}
+
+.action--container {
+  max-width: 1200px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f9faf8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.action--content {
+  width: 100%;
+  background-color: #3882f6;
+  margin: 10px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.action--header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.action--text {
+  color: #e5e7eb;
+}
+
+.action--button {
+  all: unset;
+  width: 130px;
+  height: 30px;
+  background-color: #3882f6;
+  border: 2px solid white;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.action--button:hover {
+  background-color: #166bf3;
 }
